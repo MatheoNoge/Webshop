@@ -1,0 +1,62 @@
+
+.kaos{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    height: 97vh;
+    background-color: gray
+
+}
+.nyx{
+    height: 130000vh;
+    background-color: purple;
+}
+.gaia{
+    display: flex;
+    height: 84vh;
+ 
+    background-color: brown;
+   
+}
+.uranos{
+    display: flex;
+    width: 21vw;
+    height: 84vh;
+    background-color: skyblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCategories{
+    width: 11vw;
+    height: 60vh;
+    background-color: pink;
+    
+}
+.kat1{
+    width: 11vw;
+    height: 10vh;
+
+    outline: 2px solid black;
+}
+.hyperion{
+    width: 21vw;
+    height: 84vh;
+    background-color:cornflowerblue;
+}
+.kronos{
+    width: 68vw;
+    height: 84vh;
+    background-color: black;
+}
+.hera{
+    width: 68vw;
+    height: 42vh;
+    background-color: goldenrod;
+}
+.zeus{
+    width: 68vw;
+    height: 42vh;
+    background-color: yellow;
+}
