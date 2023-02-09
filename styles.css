@@ -9,12 +9,30 @@
 
 }
 .nyx{
-    height: 130000vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: purple;
+}
+.thanatos{
+    height: 13vh;
+    width: 13vh;
+    background-color: darkslateblue;
+}
+.hypnos{
+    height: 13vh;
+    width: 40vw;
+    background-color: white;
+}
+.moros{
+    height: 13vh;
+    width: 13vh;
+    background-color: tomato;
 }
 .gaia{
     display: flex;
-    height: 84vh;
+    height: 154vh;
  
     background-color: brown;
    
@@ -22,7 +40,7 @@
 .uranos{
     display: flex;
     width: 21vw;
-    height: 84vh;
+    height: 154vh;
     background-color: skyblue;
     justify-content: center;
     align-items: center;
@@ -42,12 +60,12 @@
 }
 .hyperion{
     width: 21vw;
-    height: 84vh;
+    height: 154vh;
     background-color:cornflowerblue;
 }
 .kronos{
     width: 68vw;
-    height: 84vh;
+    height: 154vh;
     background-color: black;
 }
 .hera{
@@ -57,6 +75,10 @@
 }
 .zeus{
     width: 68vw;
-    height: 42vh;
+    height: 112vh;
     background-color: yellow;
+}
+.artemis{
+    height: 60vh;
+    background-color: darkgreen;
 }
