@@ -4,12 +4,12 @@
     justify-content: flex-start;
     flex-direction: column;
 
-    height: 97vh;
+    height: 254vh;
     background-color: gray
 
 }
 .nyx{
-    height: 40vh;
+    height: 13vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,9 +30,23 @@
     width: 13vh;
     background-color: tomato;
 }
+.kategorier{
+    display: flex;
+    height: 20vh;
+    background-color: cadetblue;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.kategori{
+    height: 20vh;
+    width: 15vw;
+    background-color: chartreuse;
+    outline: 2px solid black;
+
+}
 .gaia{
     display: flex;
-    height: 154vh;
+    height: 221vh;
  
     background-color: brown;
    
@@ -40,27 +54,16 @@
 .uranos{
     display: flex;
     width: 21vw;
-    height: 154vh;
+    height: 221vh;
     background-color: skyblue;
     justify-content: center;
     align-items: center;
 }
 
-.containerCategories{
-    width: 11vw;
-    height: 60vh;
-    background-color: pink;
-    
-}
-.kat1{
-    width: 11vw;
-    height: 10vh;
 
-    outline: 2px solid black;
-}
 .hyperion{
     width: 21vw;
-    height: 154vh;
+    height: 221vh;
     background-color:cornflowerblue;
 }
 .kronos{
@@ -75,7 +78,7 @@
 }
 .zeus{
     width: 68vw;
-    height: 112vh;
+    height: 179vh;
     background-color: yellow;
 }
 .artemis{
