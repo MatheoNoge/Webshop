@@ -4,84 +4,326 @@
     justify-content: flex-start;
     flex-direction: column;
 
-    height: 254vh;
-    background-color: gray
+    height: 513vh;
+    background-color: white
 
 }
 .nyx{
-    height: 13vh;
+    height: 26vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: purple;
+    background-color: blue;
 }
 .thanatos{
     height: 13vh;
     width: 13vh;
-    background-color: darkslateblue;
+
 }
 .hypnos{
-    height: 13vh;
-    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    height: 26vh;
+    width: 60vw;
     background-color: white;
 }
 .moros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 13vh;
     width: 13vh;
-    background-color: tomato;
+
 }
 .kategorier{
     display: flex;
     height: 20vh;
-    background-color: cadetblue;
+    background-color: skyblue;
     flex-direction: row;
     justify-content: space-around;
 }
 .kategori{
+    display: flex;
+
     height: 20vh;
     width: 15vw;
-    background-color: chartreuse;
-    outline: 2px solid black;
+    background-color: black;
+
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.kategori_img{
+    display: flex;
+    width: 15vw;
+    height: 12vh;
+    padding: 5px;
+    align-items: center;
+    flex-direction: column;
 
 }
+.kategori_text{
+    display: flex;
+    height: 7vh;
+    width: 15vw;
+    font-size: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
 .gaia{
     display: flex;
-    height: 221vh;
+    height: 367vh;
  
-    background-color: brown;
+    background-color: skyblue;
    
 }
 .uranos{
     display: flex;
     width: 21vw;
-    height: 221vh;
-    background-color: skyblue;
+    height: 367vh;
+
     justify-content: center;
-    align-items: center;
 }
 
 
 .hyperion{
     width: 21vw;
-    height: 221vh;
-    background-color:cornflowerblue;
+    height: 367vh;
+
 }
 .kronos{
     width: 68vw;
-    height: 154vh;
+    height: 367vh;
     background-color: black;
 }
 .hera{
+    display: flex;
     width: 68vw;
     height: 42vh;
-    background-color: goldenrod;
+    flex-direction: column-reverse;
+    background-color: skyblue;
 }
-.zeus{
+.products{
+    display: grid;
+
     width: 68vw;
-    height: 179vh;
-    background-color: yellow;
+    height: 325vh;
+    background-color: skyblue;
 }
 .artemis{
-    height: 60vh;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     background-color: darkgreen;
 }
+.rubrik{
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    background-color:khaki;
+}
+.produkt{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 30vh;
+    background-color: lightgray;
+}
+.prod_img{
+    height: 25vh;
+    width: 30vh;
+    background-color: greenyellow;
+}
+.prod_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 30vh;
+    
+    background-color: olive;
+}
+.kassa-bg{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color:lightyellow;
+}
+.kassa-header{
+    display: flex;
+    height: 13vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.kassa-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    width: 100%;
+    background-color: skyblue;
+}
+.cart {
+    height: 90%;
+    width: 100%;
+  
+    position: relative;
+  }
+  /* cart header */
+  .cart-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: skyblue;
+  }
+  /* cart items */
+  .cart-items {
+    max-height: calc(98vh - 247px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: lightseagreen;
+  }
+  /* cart item */
+  .cart-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: skyblue;
+  }
+  .cart-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 21, 21);
+  
+    border-left: 1px solid rgb(var(--right-side-bg-color));
+  }
+  .cart-footer .subtotal {
+      height: 5vh;
+      display: flex;
+      justify-content: center;
+    background-color: white;
+  }
+  .cart-footer .checkout {
+      display: flex;
+      justify-content: center;
+      height: 5vh;
+    background-color: rgb(242, 255, 58);
+  }
+  .products .item .item-container .add-to-wishlist {
+    background-color: rgba(255, 21, 21, 0.7);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+  
+    padding: 5px;
+  
+    border-radius: 50%;
+  
+    cursor: pointer;
+  }
+  .products .item .item-container .add-to-cart img {
+    width: 32px;
+    height: 32px;
+  }
+  .products {
+    height: 100%;
+    width: 100%
+  
+    display: grid;
+    
+    grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr;
+    grid-template-columns: repeat(3, 3fr);
+  }
+  .products img {
+    width: 200px;
+    /* filter: drop-shadow(30px 10px 4px #ddd); */
+  }
+  .products .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+  }
+  .products .item .item-container {
+    width: 250px;
+    height: 90%;
+    background-color: #000;
+  
+    border-radius: 25px;
+  
+    position: relative;
+  }
+  .products .item .item-container .item-img {
+    width: 100%;
+    height: 60%;
+  
+    background-color: white;
+  
+    border: 1px solid #000;
+    border-radius: 25px 25px 0 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .products .item .item-container .desc {
+    width: 100%;
+    color: #fff;
+  
+    padding: 10px;
+  }
+  .products .item .item-container .add-to-cart {
+    background-color: rgba(var(--right-side-bg-color), 0.7);
+    
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    padding: 5px;
+  
+    border-radius: 50%;
+  
+  }
+  .cart-item .item-info {
+    flex: 1;
+    
+  
+    border-radius: 0 10px 10px 0;
+  
+    padding: 10px;
+  }
+  .cart-item .item-info img {
+    width: 100px;
+  }
+  /* unit price */
+  .cart-item .unit-price {
+    flex: 1;
+    font-size: 1.5rem;
+  }
+  /* units */
+  .cart-item .units {
+    flex: 1;
+  }
+  .cart-item .units .number {
+    margin: 0 10px;
+  
+    font-size: 1.5rem;
+  }
