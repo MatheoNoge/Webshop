@@ -331,3 +331,8 @@
   
     font-size: 1.5rem;
   }
+  .btn{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    overflow: hidden; 
+  }

@@ -122,3 +122,11 @@ function changeNumberOfUnits(action, id) {
 
   updateCart();
 }
+function clearCart() {
+  alert("Tack för ditt köp");
+  while (cartItemsEl.hasChildNodes()){
+    for (let i = 0; i < 15; i++) {
+      cart = cart.filter((item) => item.id !== i);
+    }
+  updateCart()
+}}
